@@ -1,0 +1,35 @@
+src/main/resources/META-INF/plugin.xml
+  h_17984c8028af64 10,13
+gradle.properties
+  h_17984c8028af64 4
+src/main/kotlin/io/github/cdgeass/dmdhb/DisableMavenDefaultBlockerActivity.kt
+  s_8064e450a92ac4::t_b8304fc19ec1dd 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "91382233ea6030cdfb05420a7244432e4fe2249d",
+  "prompts": {},
+  "humans": {
+    "h_17984c8028af64": {
+      "author": "王太成 <wtchxx-223@163.com>"
+    }
+  },
+  "sessions": {
+    "s_8064e450a92ac4": {
+      "agent_id": {
+        "tool": "trae-code-edit",
+        "id": "ai_tab-20260910143432010003157175432C16E",
+        "model": "default"
+      },
+      "human_author": "王太成 <wtchxx-223@163.com>",
+      "custom_attributes": {
+        "source_scene": "cue",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "external_session_id": "20260910143432010003157175432C16E",
+        "tool": "trae-code-edit"
+      }
+    }
+  }
+}
