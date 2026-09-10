@@ -24,7 +24,7 @@ class DisableMavenDefaultBlockerActivity : ProjectActivity {
     override suspend fun execute(project: Project) {
         val pluginsPath = PathManager.getPreInstalledPluginsPath()
         LOG.debug("PreInstalled plugins path $pluginsPath")
-        loadSettings("$pluginsPath/maven/lib/maven3/conf/settings.xml")
+        loadSettings("$pluginsPath/maven-plugin/lib/maven3/conf/settings.xml")
     }
 
     private fun loadSettings(path: String) {
